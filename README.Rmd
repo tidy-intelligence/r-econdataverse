@@ -1,0 +1,32 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# econdataverse
+
+<!-- badges: start -->
+[![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
+[![CRAN status](https://www.r-pkg.org/badges/version/econdataverse)](https://CRAN.R-project.org/package=econdataverse)
+<!-- badges: end -->
+
+The 'EconDataverse' is a universe of open-source packages to work  seamlessly with economic data. This package is designed to make it easy to  install and load multiple 'EconDataverse' packages in a single step. Learn more about the 'EconDataverse' at [econdataverse.org](https://www.econdataverse.org).
+
+## Installation
+
+You can install the development version of `econdataverse` from [GitHub](https://github.com/tidy-intelligence/r-econdataverse) with:
+
+``` r
+# install.packages("pak")
+pak::pak("tidy-intelligence/r-oecdoda")
+```

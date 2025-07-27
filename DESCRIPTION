@@ -1,0 +1,34 @@
+Package: econdataverse
+Title: Easily Load and Install the 'EconDataverse'
+Version: 0.0.0.9000
+Authors@R: c(
+    person("Christoph", "Scheuch", , "christoph@tidy-intelligence.com", 
+            role = c("aut", "cre", "cph"),
+            comment = c(ORCID = "0009-0004-0423-6819"))
+    )
+Description: The 'EconDataverse' is a universe of open-source packages to work 
+    seamlessly with economic data. This package is designed to make it easy to 
+    install and load multiple 'EconDataverse' packages in a single step. Learn
+    more about the 'EconDataverse' at <https://www.econdataverse.org>
+License: MIT + file LICENSE
+Depends: 
+    R (>= 4.1)
+Imports:
+    econid,
+    econtools,
+    cli (>= 3.6.1),
+    conflicted (>= 1.2.0),
+    imfweo,
+    oecdoda,
+    owidapi,
+    uisapi,
+    wbwdi,
+    wbids
+Suggests: 
+    testthat (>= 3.0.0)
+URL: https://github.com/tidy-intelligence/r-econdataverse, https://tidy-intelligence.github.io/r-econdataverse/
+BugReports: https://github.com/tidy-intelligence/r-econdataverse/issues
+Config/testthat/edition: 3
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
