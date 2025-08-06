@@ -9,9 +9,6 @@
   if (is_attached("conflicted")) {
     return(invisible())
   }
-
-  conflicts <- econdataverse_conflicts()
-  inform_startup(econdataverse_conflict_message(conflicts))
 }
 
 is_attached <- function(x) {

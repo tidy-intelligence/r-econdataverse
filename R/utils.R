@@ -6,7 +6,7 @@ inform_startup <- function(msg, ...) {
     return()
   }
 
-  rlang::inform(msg, ..., class = "packageStartupMessage")
+  packageStartupMessage(msg, ...)
 }
 
 #' List all packages in the econdataverse

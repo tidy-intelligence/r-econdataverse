@@ -28,5 +28,39 @@ You can install the development version of `econdataverse` from [GitHub](https:/
 
 ``` r
 # install.packages("pak")
-pak::pak("tidy-intelligence/r-oecdoda")
+pak::pak("tidy-intelligence/r-econdataverse")
 ```
+
+## Usage
+
+`library(econdataverse)` will load the core EconDataverse packages:
+
+- `econid`, for standardizing identifiers.
+- `econtools`, for combining data sources.
+- `imfweo`, for the International Monetary Fund World Economic Outlook (WEO).
+- `oecdoda`, for the OECD Official Development Assistance (ODA).
+- `owidapi`, for the Our World in Data API.
+- `uisapi`, for the UNESCO Institute for Statistics API.
+- `wbids`, for the World Bank International Debt Statistics (IDS).
+- `wbwdi`, for the World Bank World Development Indicators (WDI).
+
+```{r}
+library(econdataverse)
+```
+
+And you can check that all EconDataverse packages are up-to-date with `econdataverse_update()`:
+
+```{r}
+econdataverse_update()
+```
+
+## Contributing
+
+Contributions to `econdataverse` are welcome! If you'd like to contribute, please follow these steps:
+
+1. **Create an issue**: Before making changes, create an issue describing the bug or feature you're addressing.
+2. **Fork the repository**: After receiving supportive feedback from the package authors, fork the repository to your GitHub account.
+3. **Create a branch**: Create a branch for your changes with a descriptive name.
+4. **Make your changes**: Implement your bug fix or feature.
+5. **Test your changes**: Run tests to ensure your changes don't break existing functionality.
+6. **Submit a pull request**: Push your changes to your fork and submit a pull request to the main repository.

@@ -37,7 +37,7 @@ econdataverse_attach_message <- function(to_load) {
   }
 
   header <- cli::rule(
-    left = cli::style_bold("Attaching core econdataverse packages"),
+    left = cli::style_bold("Attaching core EconDataverse packages"),
     right = paste0("econdataverse ", package_version_h("econdataverse"))
   )
 
