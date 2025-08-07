@@ -1,3 +1,4 @@
+# nocov start
 .onAttach <- function(...) {
   if (is_loading_for_tests()) {
     return(invisible())
@@ -7,9 +8,10 @@
   inform_startup(econdataverse_attach_message(attached))
 
   if (is_attached("conflicted")) {
-    return(invisible())
+    return(invisible()) # nolint
   }
 }
+# nocov end
 
 is_attached <- function(x) {
   paste0("package:", x) %in% search()

@@ -14,8 +14,6 @@ core_unloaded <- function() {
   core[!search %in% search()]
 }
 
-# Attach the package from the same package library it was
-# loaded from before
 same_library <- function(pkg) {
   loc <- if (pkg %in% loadedNamespaces()) dirname(getNamespaceInfo(pkg, "path"))
   library(pkg, lib.loc = loc, character.only = TRUE, warn.conflicts = FALSE)
@@ -53,7 +51,7 @@ econdataverse_attach_message <- function(to_load) {
   )
 
   if (length(packages) %% 2 == 1) {
-    packages <- append(packages, "")
+    packages <- append(packages, "") # nocov
   }
   col1 <- seq_len(length(packages) / 2)
   info <- paste0(packages[col1], "     ", packages[-col1])

@@ -5,10 +5,15 @@
 
 <!-- badges: start -->
 
-[![Lifecycle:
-experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
 [![CRAN
-status](https://www.r-pkg.org/badges/version/econdataverse)](https://CRAN.R-project.org/package=econdataverse)
+status](https://www.r-pkg.org/badges/version/econdataverse)](https://cran.r-project.org/package=econdataverse)
+[![CRAN
+downloads](https://cranlogs.r-pkg.org/badges/econdataverse)](https://cran.r-project.org/package=econdataverse)
+![R CMD
+Check](https://github.com/tidy-intelligence/r-econdataverse/actions/workflows/R-CMD-check.yaml/badge.svg)
+![Lint](https://github.com/tidy-intelligence/r-econdataverse/actions/workflows/lint.yaml/badge.svg)
+[![Codecov test
+coverage](https://codecov.io/gh/tidy-intelligence/r-econdataverse/graph/badge.svg)](https://app.codecov.io/gh/tidy-intelligence/r-econdataverse)
 <!-- badges: end -->
 
 The ‘EconDataverse’ is a universe of open-source packages to work
@@ -18,6 +23,11 @@ Learn more about the ‘EconDataverse’ at
 [econdataverse.org](https://www.econdataverse.org).
 
 ## Installation
+
+<!-- You can install `econdataverse` from [CRAN](https://CRAN.R-project.org/package=econdataverse) via:
+&#10;``` r
+install.packages("econdataverse")
+``` -->
 
 You can install the development version of `econdataverse` from
 [GitHub](https://github.com/tidy-intelligence/r-econdataverse) with:
@@ -31,15 +41,22 @@ pak::pak("tidy-intelligence/r-econdataverse")
 
 `library(econdataverse)` will load the core EconDataverse packages:
 
-- `econid`, for standardizing identifiers.
-- `econtools`, for combining data sources.
-- `imfweo`, for the International Monetary Fund World Economic Outlook
-  (WEO).
-- `oecdoda`, for the OECD Official Development Assistance (ODA).
-- `owidapi`, for the Our World in Data API.
-- `uisapi`, for the UNESCO Institute for Statistics API.
-- `wbids`, for the World Bank International Debt Statistics (IDS).
-- `wbwdi`, for the World Bank World Development Indicators (WDI).
+- [`econid`](https://github.com/teal-insights/r-econid), for
+  standardizing identifiers.
+- [`econtools`](https://github.com/tidy-intelligence/r-econtools), for
+  combining data sources.
+- [`imfweo`](https://github.com/Teal-Insights/r-imfweo), for the
+  International Monetary Fund World Economic Outlook (WEO).
+- [`oecdoda`](https://github.com/tidy-intelligence/r-oecdoda), for the
+  OECD Official Development Assistance (ODA).
+- [`owidapi`](https://github.com/tidy-intelligence/r-owidapi), for the
+  Our World in Data API.
+- [`uisapi`](https://github.com/tidy-intelligence/r-uisapi), for the
+  UNESCO Institute for Statistics API.
+- [`wbids`](https://github.com/Teal-Insights/r-wbids/issues), for the
+  World Bank International Debt Statistics (IDS).
+- [`wbwdi`](https://github.com/tidy-intelligence/r-wbwdi), for the World
+  Bank World Development Indicators (WDI).
 
 ``` r
 library(econdataverse)
@@ -48,14 +65,6 @@ library(econdataverse)
 #> ✔ econtools 0.0.0.9003     ✔ uisapi    0.1.0     
 #> ✔ imfweo    0.1.0          ✔ wbids     1.0.0     
 #> ✔ oecdoda   0.1.0          ✔ wbwdi     1.0.1
-```
-
-And you can check that all EconDataverse packages are up-to-date with
-`econdataverse_update()`:
-
-``` r
-econdataverse_update()
-#> All econdataverse packages up-to-date
 ```
 
 ## Contributing

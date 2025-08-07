@@ -4,6 +4,7 @@
 # Suppress R CMD check note
 # Namespace in Imports field not imported from: PKG
 #   All declared Imports should be used.
+# nocov start
 ignore_unused_imports <- function() {
   econid::add_entity_pattern()
   econtools::add_gdp_column()
@@ -14,3 +15,4 @@ ignore_unused_imports <- function() {
   wbids::ids_bulk()
   wbwdi::wdi_get()
 }
+# nocov end
