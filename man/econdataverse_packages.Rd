@@ -9,6 +9,9 @@ econdataverse_packages(include_self = TRUE)
 \arguments{
 \item{include_self}{Include econdataverse in the list?}
 }
+\value{
+A character vector of package names.
+}
 \description{
 List all packages in the econdataverse
 }

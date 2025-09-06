@@ -1,3 +1,5 @@
+#' @keywords internal
+#' @noRd
 inform_startup <- function(msg, ...) {
   if (is.null(msg)) {
     return()
@@ -12,7 +14,11 @@ inform_startup <- function(msg, ...) {
 #' List all packages in the econdataverse
 #'
 #' @param include_self Include econdataverse in the list?
+#'
+#' @return A character vector of package names.
+#'
 #' @export
+#'
 #' @examples
 #' econdataverse_packages()
 econdataverse_packages <- function(include_self = TRUE) {
@@ -28,6 +34,8 @@ econdataverse_packages <- function(include_self = TRUE) {
   names
 }
 
+#' @keywords internal
+#' @noRd
 invert <- function(x) {
   if (length(x) == 0) {
     return()
