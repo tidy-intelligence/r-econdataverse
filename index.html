@@ -22,7 +22,7 @@
 
     <a class="navbar-brand me-2" href="index.html">econdataverse</a>
 
-    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">0.0.0.9000</small>
+    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">0.1.0</small>
 
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -54,12 +54,11 @@
 <div class="section level2">
 <h2 id="installation">Installation<a class="anchor" aria-label="anchor" href="#installation"></a>
 </h2>
-<!-- You can install `econdataverse` from [CRAN](https://CRAN.R-project.org/package=econdataverse) via:
-&#10;``` r
-install.packages("econdataverse")
-``` -->
-<p>You can install the development version of <code>econdataverse</code> from <a href="https://github.com/tidy-intelligence/r-econdataverse" class="external-link">GitHub</a> with:</p>
+<p>You can install <code>econdataverse</code> from CRAN via:</p>
 <div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/utils/install.packages.html" class="external-link">install.packages</a></span><span class="op">(</span><span class="st">"econdataverse"</span><span class="op">)</span></span></code></pre></div>
+<p>You can install the development version of <code>econdataverse</code> from <a href="https://github.com/tidy-intelligence/r-econdataverse" class="external-link">GitHub</a> with:</p>
+<div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="co"># install.packages("pak")</span></span>
 <span><span class="fu">pak</span><span class="fu">::</span><span class="fu"><a href="https://pak.r-lib.org/reference/pak.html" class="external-link">pak</a></span><span class="op">(</span><span class="st">"tidy-intelligence/r-econdataverse"</span><span class="op">)</span></span></code></pre></div>
 </div>
@@ -85,13 +84,13 @@ install.packages("econdataverse")
 <li>
 <a href="https://github.com/tidy-intelligence/r-wbwdi" class="external-link"><code>wbwdi</code></a>, for the World Bank World Development Indicators (WDI).</li>
 </ul>
-<div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/tidy-intelligence/r-econdataverse" class="external-link">econdataverse</a></span><span class="op">)</span></span>
 <span><span class="co">#&gt; ── Attaching core EconDataverse packages ─────────── econdataverse 0.0.0.9000 ──</span></span>
-<span><span class="co">#&gt; ✔ econid    0.0.2          ✔ owidapi   0.1.1     </span></span>
-<span><span class="co">#&gt; ✔ econtools 0.0.0.9003     ✔ uisapi    0.1.0     </span></span>
-<span><span class="co">#&gt; ✔ imfweo    0.1.0          ✔ wbids     1.0.0     </span></span>
-<span><span class="co">#&gt; ✔ oecdoda   0.1.0          ✔ wbwdi     1.0.1</span></span></code></pre></div>
+<span><span class="co">#&gt; ✔ econid    0.0.2     ✔ owidapi   0.1.1</span></span>
+<span><span class="co">#&gt; ✔ econtools 0.1.0     ✔ uisapi    0.1.0</span></span>
+<span><span class="co">#&gt; ✔ imfweo    0.1.0     ✔ wbids     1.0.0</span></span>
+<span><span class="co">#&gt; ✔ oecdoda   0.1.0     ✔ wbwdi     1.0.1</span></span></code></pre></div>
 </div>
 <div class="section level2">
 <h2 id="contributing">Contributing<a class="anchor" aria-label="anchor" href="#contributing"></a>
@@ -116,6 +115,7 @@ install.packages("econdataverse")
   </main><aside class="col-md-3"><div class="links">
 <h2 data-toc-skip>Links</h2>
 <ul class="list-unstyled">
+<li><a href="https://cloud.r-project.org/package=econdataverse" class="external-link">View on CRAN</a></li>
 <li><a href="https://github.com/tidy-intelligence/r-econdataverse/" class="external-link">Browse source code</a></li>
 <li><a href="https://github.com/tidy-intelligence/r-econdataverse/issues" class="external-link">Report a bug</a></li>
 </ul>
@@ -147,8 +147,6 @@ install.packages("econdataverse")
 <div class="dev-status">
 <h2 data-toc-skip>Dev status</h2>
 <ul class="list-unstyled">
-<li><a href="https://cran.r-project.org/package=econdataverse" class="external-link"><img src="https://www.r-pkg.org/badges/version/econdataverse" alt="CRAN status"></a></li>
-<li><a href="https://cran.r-project.org/package=econdataverse" class="external-link"><img src="https://cranlogs.r-pkg.org/badges/econdataverse" alt="CRAN downloads"></a></li>
 <li><a href="https://app.codecov.io/gh/tidy-intelligence/r-econdataverse" class="external-link"><img src="https://codecov.io/gh/tidy-intelligence/r-econdataverse/graph/badge.svg" alt="Codecov test coverage"></a></li>
 </ul>
 </div>
