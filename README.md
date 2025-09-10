@@ -5,6 +5,10 @@
 
 <!-- badges: start -->
 
+[![CRAN
+status](https://www.r-pkg.org/badges/version/econdataverse)](https://cran.r-project.org/package=econdataverse)
+[![CRAN
+downloads](https://cranlogs.r-pkg.org/badges/econdataverse)](https://cran.r-project.org/package=econdataverse)
 ![R CMD
 Check](https://github.com/tidy-intelligence/r-econdataverse/actions/workflows/R-CMD-check.yaml/badge.svg)
 ![Lint](https://github.com/tidy-intelligence/r-econdataverse/actions/workflows/lint.yaml/badge.svg)
@@ -20,7 +24,8 @@ Learn more about the ‘EconDataverse’ at
 
 ## Installation
 
-You can install `econdataverse` from CRAN via:
+You can install `econdataverse` from
+[CRAN](https://CRAN.R-project.org/package=econdataverse) via:
 
 ``` r
 install.packages("econdataverse")
@@ -57,7 +62,7 @@ pak::pak("tidy-intelligence/r-econdataverse")
 
 ``` r
 library(econdataverse)
-#> ── Attaching core EconDataverse packages ─────────── econdataverse 0.0.0.9000 ──
+#> ── Attaching core EconDataverse packages ─────────── econdataverse 0.1.0.9000 ──
 #> ✔ econid    0.0.2     ✔ owidapi   0.1.1
 #> ✔ econtools 0.1.0     ✔ uisapi    0.1.0
 #> ✔ imfweo    0.1.0     ✔ wbids     1.0.0
