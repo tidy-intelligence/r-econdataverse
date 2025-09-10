@@ -13,10 +13,14 @@
 }
 # nocov end
 
+#' @keywords internal
+#' @noRd
 is_attached <- function(x) {
   paste0("package:", x) %in% search()
 }
 
+#' @keywords internal
+#' @noRd
 is_loading_for_tests <- function() {
   !interactive() && identical(Sys.getenv("DEVTOOLS_LOAD"), "econdataverse")
 }

@@ -27,11 +27,11 @@ The 'EconDataverse' is a universe of open-source packages to work  seamlessly wi
 
 ## Installation
 
-<!-- You can install `econdataverse` from [CRAN](https://CRAN.R-project.org/package=econdataverse) via:
+You can install `econdataverse` from [CRAN](https://CRAN.R-project.org/package=econdataverse) via:
 
 ``` r
 install.packages("econdataverse")
-``` -->
+```
 
 You can install the development version of `econdataverse` from [GitHub](https://github.com/tidy-intelligence/r-econdataverse) with:
 
