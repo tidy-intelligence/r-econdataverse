@@ -44,8 +44,10 @@ pak::pak("tidy-intelligence/r-econdataverse")
 
 `library(econdataverse)` will load the core EconDataverse packages:
 
+- [`econdatasets`](https://github.com/tidy-intelligence/r-econdatasets), for downloading selected datasets that are preprocessed by ‘EconDataverse’ packages.
 - [`econid`](https://github.com/teal-insights/r-econid), for standardizing identifiers.
 - [`econtools`](https://github.com/tidy-intelligence/r-econtools), for combining data sources.
+- [`imfapi`](https://github.com/Teal-Insights/r-imfapi), for the International Monetary Fund API.
 - [`imfweo`](https://github.com/Teal-Insights/r-imfweo), for the International Monetary Fund World Economic Outlook (WEO).
 - [`oecdoda`](https://github.com/tidy-intelligence/r-oecdoda), for the OECD Official Development Assistance (ODA).
 - [`owidapi`](https://github.com/tidy-intelligence/r-owidapi), for the Our World in Data API.
