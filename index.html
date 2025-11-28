@@ -22,7 +22,7 @@
 
     <a class="navbar-brand me-2" href="index.html">econdataverse</a>
 
-    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">0.1.0.9001</small>
+    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">0.1.1</small>
 
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,6 +32,7 @@
     <div id="navbar" class="collapse navbar-collapse ms-3">
       <ul class="navbar-nav me-auto">
 <li class="nav-item"><a class="nav-link" href="reference/index.html">Reference</a></li>
+<li class="nav-item"><a class="nav-link" href="news/index.html">Changelog</a></li>
       </ul>
 <ul class="navbar-nav">
 <li class="nav-item"><form class="form-inline" role="search">
@@ -68,9 +69,13 @@
 <p><code><a href="https://github.com/tidy-intelligence/r-econdataverse" class="external-link">library(econdataverse)</a></code> will load the core EconDataverse packages:</p>
 <ul>
 <li>
+<a href="https://github.com/tidy-intelligence/r-econdatasets" class="external-link"><code>econdatasets</code></a>, for downloading selected datasets that are preprocessed by ‘EconDataverse’ packages.</li>
+<li>
 <a href="https://github.com/teal-insights/r-econid" class="external-link"><code>econid</code></a>, for standardizing identifiers.</li>
 <li>
 <a href="https://github.com/tidy-intelligence/r-econtools" class="external-link"><code>econtools</code></a>, for combining data sources.</li>
+<li>
+<a href="https://github.com/Teal-Insights/r-imfapi" class="external-link"><code>imfapi</code></a>, for the International Monetary Fund API.</li>
 <li>
 <a href="https://github.com/Teal-Insights/r-imfweo" class="external-link"><code>imfweo</code></a>, for the International Monetary Fund World Economic Outlook (WEO).</li>
 <li>
@@ -86,11 +91,12 @@
 </ul>
 <div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/tidy-intelligence/r-econdataverse" class="external-link">econdataverse</a></span><span class="op">)</span></span>
-<span><span class="co">#&gt; ── Attaching core EconDataverse packages ─────────── econdataverse 0.1.0.9000 ──</span></span>
-<span><span class="co">#&gt; ✔ econid    0.0.2     ✔ owidapi   0.1.1</span></span>
-<span><span class="co">#&gt; ✔ econtools 0.1.0     ✔ uisapi    0.1.0</span></span>
-<span><span class="co">#&gt; ✔ imfweo    0.1.0     ✔ wbids     1.0.0</span></span>
-<span><span class="co">#&gt; ✔ oecdoda   0.1.0     ✔ wbwdi     1.0.1</span></span></code></pre></div>
+<span><span class="co">#&gt; ── Attaching core EconDataverse packages ─────────── econdataverse 0.1.0.9001 ──</span></span>
+<span><span class="co">#&gt; ✔ econdatasets 0.1.0          ✔ oecdoda      0.1.0     </span></span>
+<span><span class="co">#&gt; ✔ econid       0.0.2          ✔ owidapi      0.1.1     </span></span>
+<span><span class="co">#&gt; ✔ econtools    0.1.0          ✔ uisapi       0.1.1     </span></span>
+<span><span class="co">#&gt; ✔ imfapi       0.1.2          ✔ wbids        1.1.0     </span></span>
+<span><span class="co">#&gt; ✔ imfweo       0.1.0.9001     ✔ wbwdi        1.0.1</span></span></code></pre></div>
 </div>
 <div class="section level2">
 <h2 id="contributing">Contributing<a class="anchor" aria-label="anchor" href="#contributing"></a>

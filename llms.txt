@@ -28,10 +28,15 @@ pak::pak("tidy-intelligence/r-econdataverse")
 [`library(econdataverse)`](https://github.com/tidy-intelligence/r-econdataverse)
 will load the core EconDataverse packages:
 
+- [`econdatasets`](https://github.com/tidy-intelligence/r-econdatasets),
+  for downloading selected datasets that are preprocessed by
+  ‘EconDataverse’ packages.
 - [`econid`](https://github.com/teal-insights/r-econid), for
   standardizing identifiers.
 - [`econtools`](https://github.com/tidy-intelligence/r-econtools), for
   combining data sources.
+- [`imfapi`](https://github.com/Teal-Insights/r-imfapi), for the
+  International Monetary Fund API.
 - [`imfweo`](https://github.com/Teal-Insights/r-imfweo), for the
   International Monetary Fund World Economic Outlook (WEO).
 - [`oecdoda`](https://github.com/tidy-intelligence/r-oecdoda), for the
@@ -47,11 +52,12 @@ will load the core EconDataverse packages:
 
 ``` r
 library(econdataverse)
-#> ── Attaching core EconDataverse packages ─────────── econdataverse 0.1.0.9000 ──
-#> ✔ econid    0.0.2     ✔ owidapi   0.1.1
-#> ✔ econtools 0.1.0     ✔ uisapi    0.1.0
-#> ✔ imfweo    0.1.0     ✔ wbids     1.0.0
-#> ✔ oecdoda   0.1.0     ✔ wbwdi     1.0.1
+#> ── Attaching core EconDataverse packages ─────────── econdataverse 0.1.0.9001 ──
+#> ✔ econdatasets 0.1.0          ✔ oecdoda      0.1.0     
+#> ✔ econid       0.0.2          ✔ owidapi      0.1.1     
+#> ✔ econtools    0.1.0          ✔ uisapi       0.1.1     
+#> ✔ imfapi       0.1.2          ✔ wbids        1.1.0     
+#> ✔ imfweo       0.1.0.9001     ✔ wbwdi        1.0.1
 ```
 
 ## Contributing
