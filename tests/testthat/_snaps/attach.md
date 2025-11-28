@@ -9,10 +9,11 @@
       cat(econdataverse_attach_message(core))
     Output
       -- Attaching core EconDataverse packages ---------------- econdataverse 1.0.0 --
-      v econid    1.0.0     v owidapi   1.0.0
-      v econtools 1.0.0     v uisapi    1.0.0
-      v imfweo    1.0.0     v wbids     1.0.0
-      v oecdoda   1.0.0     v wbwdi     1.0.0
+      v econdatasets 1.0.0     v oecdoda      1.0.0
+      v econid       1.0.0     v owidapi      1.0.0
+      v econtools    1.0.0     v uisapi       1.0.0
+      v imfapi       1.0.0     v wbids        1.0.0
+      v imfweo       1.0.0     v wbwdi        1.0.0
 
 # highlights dev versions in red
 

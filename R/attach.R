@@ -1,6 +1,8 @@
 core <- c(
+  "econdatasets",
   "econid",
   "econtools",
+  "imfapi",
   "imfweo",
   "oecdoda",
   "owidapi",

@@ -6,8 +6,10 @@
 #   All declared Imports should be used.
 # nocov start
 ignore_unused_imports <- function() {
+  econdatasets::ed_get()
   econid::add_entity_pattern()
   econtools::add_gdp_column()
+  imfapi::imf_get()
   imfweo::weo_cache_reset()
   oecdoda::oda_get_crs()
   owidapi::owid_embed()
