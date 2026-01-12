@@ -31,7 +31,7 @@ Loading the package attaches all component packages in one step:
 
 ``` r
 library(econdataverse)
-#> ── Attaching core EconDataverse packages ──────────────── econdataverse 0.1.2 ──
+#> ── Attaching core EconDataverse packages ─────────── econdataverse 0.1.2.9000 ──
 #> ✔ econdatasets 0.1.0     ✔ oecdoda      0.1.0
 #> ✔ econid       0.0.3     ✔ owidapi      0.1.1
 #> ✔ econtools    0.1.0     ✔ uisapi       0.1.1
