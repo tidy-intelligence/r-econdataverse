@@ -67,12 +67,12 @@ pak::pak("tidy-intelligence/r-econdataverse")
 
 ``` r
 library(econdataverse)
-#> ── Attaching core EconDataverse packages ─────────── econdataverse 0.1.0.9001 ──
-#> ✔ econdatasets 0.1.0          ✔ oecdoda      0.1.0     
-#> ✔ econid       0.0.2          ✔ owidapi      0.1.1     
-#> ✔ econtools    0.1.0          ✔ uisapi       0.1.1     
-#> ✔ imfapi       0.1.2          ✔ wbids        1.1.0     
-#> ✔ imfweo       0.1.0.9001     ✔ wbwdi        1.0.1
+#> ── Attaching core EconDataverse packages ──────────────── econdataverse 0.1.2 ──
+#> ✔ econdatasets 0.1.0     ✔ oecdoda      0.1.0
+#> ✔ econid       0.0.3     ✔ owidapi      0.1.1
+#> ✔ econtools    0.1.0     ✔ uisapi       0.1.1
+#> ✔ imfapi       0.1.2     ✔ wbids        1.1.3
+#> ✔ imfweo       0.1.0     ✔ wbwdi        1.0.3
 ```
 
 ## Contributing

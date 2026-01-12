@@ -1,6 +1,6 @@
 Package: econdataverse
 Title: Easily Load and Install the 'EconDataverse'
-Version: 0.1.1.9000
+Version: 0.1.2.9000
 Authors@R: c(
     person("Christoph", "Scheuch", , "christoph@tidy-intelligence.com", 
             role = c("aut", "cre", "cph"),
@@ -18,7 +18,7 @@ Imports:
     econdatasets (>= 0.1.0),
     econid (>= 0.0.3),
     econtools (>= 0.1.0),
-    imfap (>= 0.1.2),
+    imfapi (>= 0.1.2),
     imfweo (>= 0.1.0),
     oecdoda (>= 0.1.0),
     owidapi (>= 0.1.1),
@@ -38,5 +38,4 @@ Config/testthat/edition: 3
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.3
-VignetteBuilder: knitr
 Config/Needs/website: rmarkdown
