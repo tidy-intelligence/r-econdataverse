@@ -8,16 +8,16 @@
 ## Citation
 
 Source:
-[`DESCRIPTION`](https://github.com/tidy-intelligence/r-econdataverse/blob/main/DESCRIPTION)
+[`DESCRIPTION`](https://github.com/tidy-intelligence/r-econdataverse/blob/v0.1.2/DESCRIPTION)
 
-Scheuch C (2025). *econdataverse: Easily Load and Install the
-'EconDataverse'*. R package version 0.1.1.9000,
+Scheuch C (2026). *econdataverse: Easily Load and Install the
+'EconDataverse'*. R package version 0.1.2,
 <https://github.com/tidy-intelligence/r-econdataverse>.
 
     @Manual{,
       title = {econdataverse: Easily Load and Install the 'EconDataverse'},
       author = {Christoph Scheuch},
-      year = {2025},
-      note = {R package version 0.1.1.9000},
+      year = {2026},
+      note = {R package version 0.1.2},
       url = {https://github.com/tidy-intelligence/r-econdataverse},
     }
