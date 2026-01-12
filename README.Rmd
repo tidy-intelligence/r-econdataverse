@@ -23,7 +23,7 @@ knitr::opts_chunk$set(
 [![Codecov test coverage](https://codecov.io/gh/tidy-intelligence/r-econdataverse/graph/badge.svg)](https://app.codecov.io/gh/tidy-intelligence/r-econdataverse)
 <!-- badges: end -->
 
-The 'EconDataverse' is a universe of open-source packages to work  seamlessly with economic data. This package is designed to make it easy to  install and load multiple 'EconDataverse' packages in a single step. Learn more about the 'EconDataverse' at [econdataverse.org](https://www.econdataverse.org).
+The 'EconDataverse' is a universe of open-source packages to work  seamlessly with economic data. This package is designed to make it easy to  install and load multiple 'EconDataverse' packages in a single step. Learn more about the 'EconDataverse' at [econdataverse.org](https://www.econdataverse.org). 
 
 ## Installation
 
